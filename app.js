@@ -18,6 +18,7 @@ app.get('/about', (req, res)=>{
     res.send('About Page');
 })
 
+//Express Route - This console logs data that arrives with the POST request being made to the /submit route
 app.post('/submit', (req, res)=>{
     console.log(req.body.name);
     res.send('Success')
