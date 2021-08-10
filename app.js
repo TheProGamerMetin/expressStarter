@@ -20,7 +20,7 @@ app.get('/about', (req, res)=>{
 
 //Express Route - This console logs data that arrives with the POST request being made to the /submit route
 app.post('/submit', (req, res)=>{
-    console.log(req.body.name);
+    console.log(req.body.name);  // this is what you are getting from postman
     res.send('Success')
 })
 
